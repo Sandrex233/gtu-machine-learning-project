@@ -2,11 +2,9 @@ import pandas as pd
 
 df = pd.read_csv("data/pizzaplace.csv")
 
-print(df.head())
+print(df.head()) # overview of data
 
-print(df.info())
-
-print(df.describe())
+print(df.info()) # getting types of data
 
 print(df.isna().sum()) # no null values
 
